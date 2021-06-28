@@ -1,0 +1,1071 @@
+{
+  "result": {
+    "songs": [
+      {
+        "id": 35847388,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 46487,
+            "name": "Adele",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 3377030,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1445558400000,
+          "size": 1,
+          "copyrightId": 390012,
+          "status": 0,
+          "picId": 1407374890649284,
+          "mark": 0
+        },
+        "duration": 295502,
+        "copyrightId": 390012,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 501053,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 270336
+      },
+      {
+        "id": 1391607519,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 31652128,
+            "name": "Dallas Turner",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 81723199,
+          "name": "Hypnotize",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1567180800000,
+          "size": 4,
+          "copyrightId": -1,
+          "status": 0,
+          "picId": 109951164371416054,
+          "mark": 0
+        },
+        "duration": 148688,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 33166086,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 1057278,
+            "name": "Barbara Opsomer",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 3184406,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1434902400000,
+          "size": 1,
+          "copyrightId": 7002,
+          "status": 0,
+          "picId": 7960464186183958,
+          "mark": 0
+        },
+        "duration": 203650,
+        "copyrightId": 7002,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 1,
+        "rUrl": null,
+        "mark": 270336
+      },
+      {
+        "id": 33211676,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 381949,
+            "name": "OMFG",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 3190201,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1417536000000,
+          "size": 1,
+          "copyrightId": 1416729,
+          "status": 0,
+          "picId": 109951164852190706,
+          "mark": 0
+        },
+        "duration": 226307,
+        "copyrightId": 1416729,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 5309845,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 401408
+      },
+      {
+        "id": 1375580792,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 7890,
+            "name": "黄龄",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 80165714,
+          "name": "醉",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1562083200000,
+          "size": 10,
+          "copyrightId": 1416500,
+          "status": 1,
+          "picId": 109951164189418178,
+          "mark": 0
+        },
+        "duration": 228009,
+        "copyrightId": 1416500,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 73728
+      },
+      {
+        "id": 20189570,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 69344,
+            "name": "N.W.A",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 35051,
+            "name": "Ice Cube",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 53243,
+            "name": "Dr. Dre",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 39185,
+            "name": "MC Ren",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 1872173,
+          "name": "The N.W.A Legacy, Vol. 2",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1030377600000,
+          "size": 18,
+          "copyrightId": 5003,
+          "status": 1,
+          "picId": 754264976665079,
+          "mark": 0
+        },
+        "duration": 231000,
+        "copyrightId": 564038,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 5335932,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 125000,
+            "name": "许阁",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 521124,
+          "name": "Like 1st Mini Album 'First Story'",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1316102400000,
+          "size": 6,
+          "copyrightId": 18001,
+          "status": 1,
+          "picId": 791648372002708,
+          "mark": 0
+        },
+        "duration": 251000,
+        "copyrightId": 1410822,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 286093,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 270336
+      },
+      {
+        "id": 1837044662,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 13112541,
+            "name": "Gibb-Z",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 12462214,
+            "name": "王鹤棣",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 47243510,
+            "name": "GeorgeSlay",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 125942058,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1618329600000,
+          "size": 2,
+          "copyrightId": 1416618,
+          "status": 1,
+          "picId": 109951165887529120,
+          "mark": 0
+        },
+        "duration": 212874,
+        "copyrightId": 1416618,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 1476193542,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 31287468,
+            "name": "龚言脩",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 94903565,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1600099200000,
+          "size": 2,
+          "copyrightId": 659011,
+          "status": 1,
+          "picId": 109951165291561374,
+          "alia": [
+            "电影《刻在你心底的名字》宣传曲"
+          ],
+          "mark": 0
+        },
+        "duration": 217681,
+        "copyrightId": 659011,
+        "status": 0,
+        "alias": [
+          "电影《刻在你心底的名字》宣传曲"
+        ],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10955844,
+        "fee": 8,
+        "rUrl": null,
+        "alias": [
+          "电影《刻在你心底的名字》宣传曲"
+        ],
+        "mark": 0
+      },
+      {
+        "id": 1464110291,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 32256542,
+            "name": "Pop Smoke",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 12107966,
+            "name": "A Boogie Wit da Hoodie",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 92690057,
+          "name": "Shoot For The Stars Aim For The Moon (Deluxe)",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1595174400000,
+          "size": 0,
+          "copyrightId": 7003,
+          "status": 3,
+          "picId": 109951165153581368,
+          "mark": 0
+        },
+        "duration": 190563,
+        "copyrightId": 7003,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 1318912
+      },
+      {
+        "id": 1833633812,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 29304235,
+            "name": "Melo",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 125359537,
+          "name": "Old Master 2",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1617206400000,
+          "size": 12,
+          "copyrightId": 722012,
+          "status": 1,
+          "picId": 109951165847447267,
+          "mark": 0
+        },
+        "duration": 170117,
+        "copyrightId": 722012,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 509106424,
+        "name": "hello",
+        "artists": [
+          {
+            "id": 12230049,
+            "name": "elijah who",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 36303615,
+          "name": "new feelings",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1492185600007,
+          "size": 9,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163031647349,
+          "mark": 0
+        },
+        "duration": 127326,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 36841430,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 46487,
+            "name": "Adele",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 3377045,
+          "name": "25",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1447948800007,
+          "size": 11,
+          "copyrightId": 390012,
+          "status": 1,
+          "picId": 3286440258167865,
+          "mark": 0
+        },
+        "duration": 295493,
+        "copyrightId": 390012,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 501053,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 270336
+      },
+      {
+        "id": 1843740335,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 12174449,
+            "name": "索扎",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 127146898,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1620641368979,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951165971650255,
+          "mark": 0
+        },
+        "duration": 226338,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 64
+      },
+      {
+        "id": 27591863,
+        "name": "哈喽",
+        "artists": [
+          {
+            "id": 5349,
+            "name": "魏晨",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 2623237,
+          "name": "登“封”造极",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1376841600007,
+          "size": 5,
+          "copyrightId": 636011,
+          "status": 1,
+          "picId": 5714161929625935,
+          "mark": 0
+        },
+        "duration": 250080,
+        "copyrightId": 636011,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 5779849,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 435948709,
+        "name": "Hello（DCGO Flip）",
+        "artists": [
+          {
+            "id": 12037211,
+            "name": "DCGO",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 1060019,
+            "name": "Marshmello",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 34914813,
+          "name": "Hello（DCGO Flip）",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1476871283535,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 1,
+          "picId": 17704336230858717,
+          "mark": 0
+        },
+        "duration": 204800,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 28838746,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 975255,
+            "name": "Mischa",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 2901266,
+          "name": "Hello",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1352217600000,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 5976945209122026,
+          "mark": 0
+        },
+        "duration": 200000,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 1450337689,
+        "name": "Hello (录音室版)",
+        "artists": [
+          {
+            "id": 5768,
+            "name": "萧敬腾",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 3684,
+            "name": "林俊杰",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 89855746,
+          "name": "Hello (录音室版)",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1590422400000,
+          "size": 1,
+          "copyrightId": 7002,
+          "status": 3,
+          "picId": 109951165010431370,
+          "mark": 0
+        },
+        "duration": 277960,
+        "copyrightId": 7002,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10939227,
+        "fee": 1,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 428391758,
+        "name": "Hello（3D）",
+        "artists": [
+          {
+            "id": 12002253,
+            "name": "杭立旺",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 34865381,
+          "name": "I Love You",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1473298734501,
+          "size": 4,
+          "copyrightId": 0,
+          "status": 1,
+          "picId": 18178225742764178,
+          "mark": 0
+        },
+        "duration": 226413,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "transNames": [
+          "重新开始"
+        ],
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 131072
+      },
+      {
+        "id": 516358597,
+        "name": "Hello",
+        "artists": [
+          {
+            "id": 1080132,
+            "name": "SEVENTEEN",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 36705013,
+          "name": "TEEN, AGE",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1509897600000,
+          "size": 13,
+          "copyrightId": 18001,
+          "status": -1,
+          "picId": 109951163057277205,
+          "alia": [
+            "SEVENTEEN 2ND ALBUM"
+          ],
+          "mark": 0
+        },
+        "duration": 200042,
+        "copyrightId": 1410822,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 270336
+      }
+    ],
+    "hasMore": true,
+    "songCount": 600
+  },
+  "code": 200
+}

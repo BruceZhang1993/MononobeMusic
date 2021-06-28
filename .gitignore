@@ -1,0 +1,9 @@
+# IDE
+/MononobeMusic.iml
+/.idea
+
+# pytest
+/.pytest_cache
+
+# Python
+__pycache__

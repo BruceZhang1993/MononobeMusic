@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mononobe_music"
+version = "0.1.0"
+description = ""
+authors = ["Bruce Zhang <zttt183525594@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+python-vlc = "*"
+pydantic = "*"
+httpx = "*"
+mutagen = "*"
+click = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+datamodel-code-generator = "^0.11.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mononobe-cli = 'mononobe_cli:run'
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
