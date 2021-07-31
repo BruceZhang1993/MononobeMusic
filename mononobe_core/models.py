@@ -16,7 +16,7 @@ class MononobeModel(BaseModel):
 class MononobeMedia(BaseModel):
     media_type: SearchType
     bitrate: int
-    uri: str
+    uri: Optional[str]
 
 
 class MononobeSong(MononobeModel):

@@ -1,3 +1,4 @@
+import asyncio
 import base64
 import sys
 
@@ -27,6 +28,8 @@ async def play(identifier: str, source: str):
     """
     player = Player.init('vlc')
     media = Provider.init(source).get_media(SearchType.song, identifier)
+    if asyncio.iscoroutine(media):
+        media = await media
     if media is None:
         sys.exit(6)
     await player.async_play_uri(media.uri)

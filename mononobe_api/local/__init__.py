@@ -64,7 +64,7 @@ class LocalProvider(Provider):
         data = list(filter(lambda s: self.filter_song_by_name(s, keyword), self._songs))
         return MononobePagination(page=page, page_size=page_size, total=len(data), data=data[page_size * (page - 1):page_size])
 
-    def get_media(self, search_type: SearchType, identifier: str, _) -> Optional[MononobeMedia]:
+    def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
         if search_type == SearchType.song:
             return MononobeMedia(uri=base64.b64decode(identifier).decode())
         raise MononobeNotImplemented()

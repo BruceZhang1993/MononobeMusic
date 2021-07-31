@@ -1,16 +1,15 @@
-from typing import List, Union
+from typing import List, Union, Optional
 
 from pydantic import BaseModel, validator
 
-from mononobe_core.models import MononobeSong
+from mononobe_core.enums import SearchType
+from mononobe_core.models import MononobeSong, MononobeMedia
 
 SOURCE = 'netease'
 
 
 class DefaultModel(BaseModel):
-    @validator('*', pre=True)
-    def not_none(self, v, field):
-        return field.default if field.default and v is None else v
+    pass
 
 
 class SearchArtist(DefaultModel):
@@ -65,6 +64,15 @@ class ArtistSearchResult(DefaultModel):
         return [s.to_model() for s in self.artists]
 
 
+class SongUrlData(DefaultModel):
+    id: int
+    url: Optional[str]
+    br: int
+
+    def to_model(self):
+        return MononobeMedia(id=str(self.id), provider='netease', media_type=SearchType.song, bitrate=self.br, uri=self.url)
+
+
 class SearchResultResponse(DefaultModel):
     code: int
     result: Union[SongSearchResult, ArtistSearchResult]
@@ -72,3 +80,8 @@ class SearchResultResponse(DefaultModel):
 
 class SongDetailResponse(DefaultModel):
     code: int
+
+
+class SongUrlResponse(DefaultModel):
+    code: int
+    data: List[SongUrlData]

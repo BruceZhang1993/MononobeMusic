@@ -1,4 +1,5 @@
 from http.cookiejar import MozillaCookieJar, Cookie
+from typing import Optional
 
 import httpx
 
@@ -65,6 +66,12 @@ class MononobeAsyncClient:
 
     def set_cookie(self, cookie: Cookie):
         self._cookie.set_cookie(cookie)
+
+    def get_cookie(self, key: str) -> Optional[str]:
+        for cookie in self._cookie:
+            if cookie.name == key:
+                return cookie.value
+        return None
 
     async def get(self, url: str, *, params: dict = None):
         response = await self._client.get(url, params=params, allow_redirects=True)

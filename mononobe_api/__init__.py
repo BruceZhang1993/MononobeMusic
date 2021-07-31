@@ -27,7 +27,7 @@ class Provider(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_media(self, search_type: SearchType, identifier: str, bitrate: int) -> Optional[MononobeMedia]:
+    def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
         pass
 
 

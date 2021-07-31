@@ -11,6 +11,7 @@ pydantic = "*"
 httpx = "*"
 mutagen = "*"
 click = "*"
+pycryptodome = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"

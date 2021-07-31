@@ -17,5 +17,8 @@ class NeteaseProvider(Provider):
         return MononobePagination(page=page, page_size=page_size, total=response.result.songCount,
                                   data=response.result.to_model())
 
-    def get_media(self, search_type: SearchType, identifier: str, bitrate: int) -> Optional[MononobeMedia]:
-        pass
+    async def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
+        response = await self.api.song_url(identifier)
+        if len(response.data) == 0:
+            return None
+        return response.data[0].to_model()
