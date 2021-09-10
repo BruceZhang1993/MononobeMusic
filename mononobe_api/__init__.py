@@ -30,6 +30,10 @@ class Provider(metaclass=ABCMeta):
     def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
         pass
 
+    @abstractmethod
+    def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
+        pass
+
 
 async def main():
     provider = Provider.init('local')

@@ -3,10 +3,14 @@ from typing import Optional
 from mononobe_api import Provider
 from mononobe_api.netease.api import NeteaseApi
 from mononobe_core.enums import SearchType
-from mononobe_core.models import MononobePagination, MononobeModel, MononobeMedia
+from mononobe_core.models import MononobePagination, MononobeModel, MononobeMedia, MononobeSong
 
 
 class NeteaseProvider(Provider):
+
+    async def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
+        response = await self.api.song_detail(identifier)
+        return response.songs[0].to_model()
 
     def __init__(self):
         self.api = NeteaseApi()

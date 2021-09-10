@@ -14,6 +14,9 @@ LOCAL_MUSIC_DIR = Path.home() / 'Music'
 
 class LocalProvider(Provider):
 
+    def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
+        pass
+
     def __init__(self):
         self._songs: List[MononobeSong] = []
         self.load_library()

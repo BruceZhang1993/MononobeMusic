@@ -5,7 +5,7 @@ import os
 
 from Crypto.Cipher import AES
 
-from mononobe_api.netease.schema import SearchResultResponse, SongUrlResponse
+from mononobe_api.netease.schema import SearchResultResponse, SongUrlResponse, SongDetailResponse
 from mononobe_core.enums import SearchType
 from mononobe_core.network import MononobeAsyncClient
 
@@ -44,10 +44,10 @@ class NeteaseApi:
         response = await self._client.post(uri, data=data)
         return response.parse_model(SearchResultResponse)
 
-    async def song_detail(self, music_id: str):
+    async def song_detail(self, music_id: str) -> SongDetailResponse:
         uri = f'{self.BASE}/song/detail/?id={music_id}&ids=[{music_id}]'
         response = await self._client.get(uri)
-        print(response.text)
+        return response.parse_model(SongDetailResponse)
 
     async def song_url(self, music_id: str) -> SongUrlResponse:
         uri = f'{self.WE_BASE}/song/enhance/player/url'
