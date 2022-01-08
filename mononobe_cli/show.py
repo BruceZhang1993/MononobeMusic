@@ -18,7 +18,7 @@ async def show(identifier: str, source: str):
         song = await song
     print(f'ID:       {song.id}')
     print(f'Name:     {song.name}')
-    print(f'Duration: {song.duration}')
+    print(f'Duration: {song.duration_str}')
     print(f'Album:    {song.album.name}')
     print(f'Artists:  {[a.name for a in song.artists]}')
     print(f'Cover:    {song.album.image}')

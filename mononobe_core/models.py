@@ -1,3 +1,4 @@
+import datetime
 from math import ceil
 from typing import List, Optional, TypeVar, Generic, Dict, Type
 
@@ -33,6 +34,10 @@ class MononobeSong(MononobeModel):
     album: Optional[Album]
     duration: int
     media: Optional[List[MononobeMedia]]
+
+    @property
+    def duration_str(self) -> str:
+        return str(datetime.timedelta(seconds=self.duration))
 
     @property
     def artists_name(self) -> str:

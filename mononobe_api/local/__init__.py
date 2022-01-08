@@ -14,8 +14,21 @@ LOCAL_MUSIC_DIR = Path.home() / 'Music'
 
 class LocalProvider(Provider):
 
+    def _get_model_from_file(self, f: Path) -> MononobeSong:
+        title, artist, album, duration, bitrate = self.load_metadata(f)
+        artist_model = MononobeSong.Artist(id=base64.b64encode(artist.encode()).decode(), name=artist,
+                                           provider='local')
+        album_model = MononobeSong.Album(id=base64.b64encode(album.encode()).decode(), name=album, provider='local')
+        return MononobeSong(id=base64.b64encode(f.as_posix().encode()).decode(), provider='local',
+                            name=title, duration=duration,
+                            media=[MononobeMedia(uri=f.as_posix(), media_type=SearchType.song,
+                                                 bitrate=bitrate)],
+                            artists=[artist_model], album=album_model)
+
     def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
-        pass
+        path = base64.b64decode(identifier).decode()
+        f = Path(path)
+        return self._get_model_from_file(f)
 
     def __init__(self):
         self._songs: List[MononobeSong] = []
@@ -32,15 +45,16 @@ class LocalProvider(Provider):
         for f in LOCAL_MUSIC_DIR.glob('**/*'):
             if not self.is_music(f):
                 continue
-            title, artist, album, duration = self.load_metadata(f)
-            artist_model = MononobeSong.Artist(id=base64.b64encode(artist.encode()).decode(), name=artist, provider='local')
-            album_model = MononobeSong.Album(id=base64.b64encode(album.encode()).decode(), name=album, provider='local')
-            self._songs.append(MononobeSong(id=base64.b64encode(f.as_posix().encode()).decode(), provider='local',
-                                            name=title, duration=duration, media=MononobeMedia(uri=f.as_posix()),
-                                            artists=[artist_model], album=album_model))
+            self._songs.append(self._get_model_from_file(f))
 
     @staticmethod
-    def load_metadata(f: Path) -> Tuple[str, str, str, int]:
+    def get_meta_or_empty(file, key: str) -> str:
+        try:
+            return str(file[key])
+        except KeyError:
+            return ''
+
+    def load_metadata(self, f: Path) -> Tuple[str, str, str, int, int]:
         mime, _ = guess_type(f)
         file = mutagen.File(f)
         title = ''
@@ -48,28 +62,34 @@ class LocalProvider(Provider):
         album = ''
 
         if mime.endswith('mpeg'):
-            title = str(file['TIT2'])
-            artist = str(file['TPE1'])
-            album = str(file['TALB'])
+            title = self.get_meta_or_empty(file, 'TIT2')
+            artist = self.get_meta_or_empty(file, 'TPE1')
+            album = self.get_meta_or_empty(file, 'TALB')
         elif mime.endswith('flac'):
             title = str(file['title'][0])
             artist = str(file['artist'][0])
             album = str(file['album'][0])
 
-        return title, artist, album, file.info.length
+        if title == '':
+            title = f.stem
+
+        return title, artist, album, file.info.length, file.info.bitrate
 
     @staticmethod
     def filter_song_by_name(song: MononobeSong, keyword: str) -> bool:
         return song.name.lower().find(keyword.lower()) != -1
 
-    def keyword_search(self, search_type: SearchType, keyword: str, page: int, page_size: int)\
+    def keyword_search(self, search_type: SearchType, keyword: str, page: int, page_size: int) \
             -> Union[MononobePagination[MononobeModel], Awaitable[MononobePagination[MononobeModel]]]:
         data = list(filter(lambda s: self.filter_song_by_name(s, keyword), self._songs))
-        return MononobePagination(page=page, page_size=page_size, total=len(data), data=data[page_size * (page - 1):page_size])
+        return MononobePagination(page=page, page_size=page_size, total=len(data),
+                                  data=data[page_size * (page - 1):page_size])
 
     def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
         if search_type == SearchType.song:
-            return MononobeMedia(uri=base64.b64decode(identifier).decode())
+            song = self._get_model_from_file(Path(base64.b64decode(identifier).decode()))
+            assert len(song.media) > 0
+            return song.media[0]
         raise MononobeNotImplemented()
 
 

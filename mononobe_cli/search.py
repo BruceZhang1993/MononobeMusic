@@ -34,8 +34,8 @@ async def search(keyword: str, source: str):
     for r in result.data:
         media_uri = ''
         if r.media is not None:
-            media_uri = r.media.uri
+            media_uri = r.media[0].uri
         if len(r.id) <= 7:
-            print(f'{r.id}\t\t{r.name}-{r.artists_name}({r.album_name})\t{media_uri}')
+            print(f'{r.id}\t\t{r.name} - {r.artists_name} - {r.album_name}\t{media_uri}')
         else:
-            print(f'{r.id}\t{r.name}-{r.artists_name}({r.album_name})\t{media_uri}')
+            print(f'{r.id}\t{r.name} - {r.artists_name} - {r.album_name}\t{media_uri}')
