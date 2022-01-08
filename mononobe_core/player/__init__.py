@@ -4,6 +4,8 @@ from abc import ABCMeta, abstractmethod
 from pathlib import Path
 from typing import Optional
 
+from mononobe_core.models import MononobeMedia, MononobeSong
+
 
 class Player(metaclass=ABCMeta):
     @staticmethod
@@ -24,6 +26,10 @@ class Player(metaclass=ABCMeta):
 
     @abstractmethod
     async def async_play_uri(self, uri: str):
+        pass
+
+    @abstractmethod
+    async def async_play_song(self, media: MononobeSong):
         pass
 
     @abstractmethod

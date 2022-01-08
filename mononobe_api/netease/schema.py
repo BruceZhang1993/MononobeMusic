@@ -114,7 +114,7 @@ class Album(BaseModel):
     transName: Any
     onSale: bool
     mark: int
-    picId_str: str
+    picId_str: Optional[str]
 
 
 class Music(BaseModel):

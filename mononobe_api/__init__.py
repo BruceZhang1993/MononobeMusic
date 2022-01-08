@@ -1,5 +1,6 @@
 import importlib
 from abc import ABCMeta, abstractmethod
+from asyncio import Future
 from pathlib import Path
 from typing import Optional, Union, Awaitable
 
@@ -27,28 +28,20 @@ class Provider(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Optional[MononobeMedia]:
+    def get_media(self, search_type: SearchType, identifier: str, bitrate: int = None) -> Union[MononobeMedia, Future[MononobeMedia], None]:
         pass
 
     @abstractmethod
-    def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
+    def show_media(self, media_type: SearchType, identifier: str) -> Union[MononobeSong, Future[MononobeSong], None]:
         pass
 
 
 async def main():
-    provider = Provider.init('local')
-    songs = provider.keyword_search(SearchType.song, 'me', 1, 20)
-    print(songs)
-    return
+    provider = Provider.init('netease')
+    songs = provider.keyword_search(SearchType.song, '牵丝戏', 1, 20)
     song: 'MononobeSong' = songs.data[0]
     player = Player.init('vlc')
-    player.play_uri(song.media.uri)
-    await asyncio.sleep(2)
-    player.pause()
-    await asyncio.sleep(2)
-    player.resume()
-    await asyncio.sleep(2)
-    player.stop()
+    await player.async_play_uri(song.media[0].uri)
 
 
 if __name__ == '__main__':

@@ -4,7 +4,7 @@ import sys
 import click
 
 from mononobe_api import Provider
-from mononobe_cli._utils import coro
+from mononobe_cli.utils import coro
 from mononobe_core.enums import SearchType
 
 

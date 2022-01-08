@@ -1,11 +1,10 @@
 import asyncio
-import base64
 import sys
 
 import click
 
 from mononobe_api import Provider
-from mononobe_cli._utils import coro
+from mononobe_cli.utils import coro
 from mononobe_core.enums import SearchType
 from mononobe_core.player import Player
 
@@ -27,9 +26,15 @@ async def play(identifier: str, source: str):
     :type source: str
     """
     player = Player.init('vlc')
+    song = Provider.init(source).show_media(SearchType.song, identifier)
+    if asyncio.iscoroutine(song):
+        song = await song
+    if song is None:
+        sys.exit(6)
     media = Provider.init(source).get_media(SearchType.song, identifier)
     if asyncio.iscoroutine(media):
         media = await media
     if media is None:
         sys.exit(6)
-    await player.async_play_uri(media.uri)
+    song.media = [media]
+    await player.async_play_song(song)
