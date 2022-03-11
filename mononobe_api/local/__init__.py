@@ -21,8 +21,7 @@ class LocalProvider(Provider):
         album_model = MononobeSong.Album(id=base64.b64encode(album.encode()).decode(), name=album, provider='local')
         return MononobeSong(id=base64.b64encode(f.as_posix().encode()).decode(), provider='local',
                             name=title, duration=duration,
-                            media=[MononobeMedia(uri=f.as_posix(), media_type=SearchType.song,
-                                                 bitrate=bitrate)],
+                            media=[MononobeMedia(uri=f.as_posix(), media_type=SearchType.song, bitrate=bitrate)],
                             artists=[artist_model], album=album_model)
 
     def show_media(self, media_type: SearchType, identifier: str) -> Optional[MononobeSong]:
@@ -73,7 +72,7 @@ class LocalProvider(Provider):
         if title == '':
             title = f.stem
 
-        return title, artist, album, file.info.length, file.info.bitrate
+        return title, artist, album, file.info.length * 1000, file.info.bitrate
 
     @staticmethod
     def filter_song_by_name(song: MononobeSong, keyword: str) -> bool:

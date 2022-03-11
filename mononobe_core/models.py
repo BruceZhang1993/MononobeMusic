@@ -37,7 +37,7 @@ class MononobeSong(MononobeModel):
 
     @property
     def duration_str(self) -> str:
-        return str(datetime.timedelta(seconds=self.duration))
+        return str(datetime.timedelta(milliseconds=self.duration))
 
     @property
     def artists_name(self) -> str:
